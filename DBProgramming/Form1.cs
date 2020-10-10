@@ -41,7 +41,7 @@ namespace DBProgramming
                 switch (comboBoxComboCalc_Operater.SelectedIndex)
                 {
                     case 0: // +
-                        result = oper1 - oper2;
+                        result = oper1 / oper2;
                         break;
                     case 1: // -
                         result = oper1 - oper2;
